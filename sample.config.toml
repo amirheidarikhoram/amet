@@ -1,0 +1,9 @@
+# Node project sample amet config file
+
+source = "git"
+match = [ "[a-z]*\.spec\.js$", "[a-z]*\.test\.js$" ]    # Put your filter regex (s) here
+postfix = [".spec.js", ".test.js"]               # Put the pattern you name your test files for files
+command = "mocha"                                       # Test command
+batched = true                                          # If you want to first test all files and then output the 
+                                                        #    process code leave it true
+mode = ["change", "commit"]                             # Scan mode

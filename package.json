@@ -1,0 +1,24 @@
+{
+	"name": "amet",
+	"description": "A minimal tool to escape tests.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"bin": {
+		"amet": "node index.js"
+	},
+	"repository": "amirheidarikhoram/amet",
+	"author": "amirheidarikhoram",
+	"homepage": "https://github.com/amirheidarikhoram/amet#readme",
+	"dependencies": {
+		"args": "^5.0.1",
+		"colors": "^1.4.0",
+		"nodegit": "^0.27.0",
+		"shelljs": "^0.8.4",
+		"toml": "^3.0.0"
+	},
+	"devDependencies": {
+		"@types/shelljs": "^0.8.8",
+		"@types/nodegit": "^0.27.2"
+	}
+}
