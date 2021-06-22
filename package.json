@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"license": "MIT",
 	"bin": {
-		"amet": "amet.js"
+		"amet": "node index.js"
 	},
 	"repository": "amirheidarikhoram/amet",
 	"author": "amirheidarikhoram",
