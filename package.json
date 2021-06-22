@@ -1,11 +1,11 @@
 {
 	"name": "amet",
 	"description": "A minimal tool to escape tests.",
-	"version": "1.0.1",
-	"main": "index.js",
+	"version": "1.0.2",
+	"main": "amet.js",
 	"license": "MIT",
 	"bin": {
-		"amet": "node amet.js"
+		"amet": "amet.js"
 	},
 	"repository": "amirheidarikhoram/amet",
 	"author": "amirheidarikhoram",
